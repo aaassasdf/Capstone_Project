@@ -12,3 +12,4 @@ zf = ZipFile('train_dataset.zip')
 
 train_df = pd.read_csv(zf.open('train_dataset.csv'))
 
+If you see column "Unnamed: 0" , please drop it as it is the same with the index.
