@@ -10,6 +10,10 @@ the shape of the created dataset is [basket_size,nunmber of baskets]
 
 Pytorch defines the data input must be in shape [batch_size,basket_size]. Therefore, we need to transpose the created dataset into [number of baskets, max_len] and then sample it. The batch_size is bptt in this project with value = 512.
 
+# Current result (incomplete)
+
+the transformer keeps predicting the same sequence no matter what the input is. Please feel free to comment and point out the wrong parts.
+
 # Credit
 
 the model implementation follows the video: https://www.youtube.com/watch?v=M6adRGJe5cQ by Aladdin Persson
