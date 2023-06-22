@@ -1,4 +1,4 @@
-#Objective
+# Objective
 
 Transformer is widely used in recent years. It is good at solving seq2seq problem sets and is mainly applied in the NLP field. The idea of this project is to treat the order of products being put in the basket as a "Sentence". 
 
